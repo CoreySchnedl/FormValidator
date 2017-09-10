@@ -15,19 +15,20 @@
   <div class="container">
     <h1>Sign In</h1>
     <form name="sign_in" action="#" method="put">
-      <input type="text" placeholder="Email"><br />
-      <input type="password" placeholder="Password"><br />
+      <input type="text" placeholder="Email" name="emailInput"><br />
+      <input type="password" placeholder="Password" name="passwordInput"><br />
       <input type="submit" value="Sign In">
     </form>
 
-    <ul class="errors">
+    <!--<ul class="errors">
       <li>Please enter a valid email address</li>
       <li>Your password should be at least 8 characters long</li>
       <li>Your password should contain at least one capital letter</li>
       <li>Your password should contain at least one number (0-9)</li>
-    </ul>
+    </ul>-->
   </div>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
   <script src="validator.js" type="text/javascript"></script>
 </body>
 </html>
